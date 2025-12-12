@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<h2 align="center">Hi there 👋 I'm 子铖（Zicheng）</h2>
+<h2 align="center">Hi there 👋 I'm Zicheng Xie </h2>
 
 <p align="center">
   <a href="mailto:<YOUR_EMAIL>">📫 <YOUR_EMAIL></a> ·
