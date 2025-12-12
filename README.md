@@ -46,12 +46,19 @@ Here are some ideas to get you started:
 ## 🚀 Featured Repositories
 
 <p align="center">
-  <a href="<REPO1_URL>"><img src="[https://img.shields.io/badge/<REPO1_NAME>-Repository-111111?style=for-the-badge&logo=github&logoColor=white](https://github.com/Zicheng-Xie/Zicheng_Xie-2025-Kaggle-Jane-Street-Real-Time-Market-Data-Forecasting-Competition-.git)" /></a>
-  <a href="<REPO2_URL>"><img src="[https://img.shields.io/badge/<REPO2_NAME>-Repository-111111?style=for-the-badge&logo=github&logoColor=white](https://github.com/Zicheng-Xie/2025Kaggle-Jigsaw_Agile-Community-Rules-Classification.git)" /></a>
+  <a href="https://github.com/Zicheng-Xie/Zicheng_Xie-2025-Kaggle-Jane-Street-Real-Time-Market-Data-Forecasting-Competition-">
+    <img alt="Jane Street RTMD" src="https://img.shields.io/badge/JaneStreet_RTMD-Repository-111111?style=for-the-badge&amp;logo=github&amp;logoColor=white" />
+  </a>
+  <a href="https://github.com/Zicheng-Xie/2025Kaggle-Jigsaw_Agile-Community-Rules-Classification">
+    <img alt="Jigsaw Agile" src="https://img.shields.io/badge/Jigsaw_Agile-Repository-111111?style=for-the-badge&amp;logo=github&amp;logoColor=white" />
+  </a>
 </p>
 
 <p align="center">
-  <a href="<REPO3_URL>"><img src="[https://img.shields.io/badge/<REPO3_NAME>-Repository-111111?style=for-the-badge&logo=github&logoColor=white](https://github.com/Zicheng-Xie/2025Kaggle-Real-Estate-Demand-Prediction.git)" /></a>
-  <a href="<REPO4_URL>"><img src="[https://img.shields.io/badge/<REPO4_NAME>-Repository-111111?style=for-the-badge&logo=github&logoColor=white](https://github.com/Zicheng-Xie/2023-ICBC_Cup-National-College-Financial-Technology-Creative-Design-Contest.git)" /></a>
+  <a href="https://github.com/Zicheng-Xie/2025Kaggle-Real-Estate-Demand-Prediction">
+    <img alt="Real Estate Demand" src="https://img.shields.io/badge/RealEstate_Demand-Repository-111111?style=for-the-badge&amp;logo=github&amp;logoColor=white" />
+  </a>
+  <a href="https://github.com/Zicheng-Xie/2023-ICBC_Cup-National-College-Financial-Technology-Creative-Design-Contest">
+    <img alt="ICBC Cup 2023" src="https://img.shields.io/badge/ICBC_Cup_2023-Repository-111111?style=for-the-badge&amp;logo=github&amp;logoColor=white" />
+  </a>
 </p>
-
