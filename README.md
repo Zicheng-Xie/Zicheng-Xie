@@ -18,7 +18,7 @@
 
 ## 🌟 About Me
 - I build **robust forecasting & classification systems** for noisy, non-stationary real-world data (finance / text / panel time series).
-- Strong focus on **feature engineering**, **model ensembling**, **LLM finetuning**, and **production-friendly pipelines**.
+- Strong focus on **feature engineering**, **model ensembling**, **LLM finetuning**, **production-friendly pipelines**.
 - Motto: **Measure. Iterate. Ship.** 🚀
 
 ---
