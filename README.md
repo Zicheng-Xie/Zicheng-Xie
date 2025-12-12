@@ -39,7 +39,7 @@ Here are some ideas to get you started:
 
 - 🎯 Focus: **Machine Learning / Data Mining / Kaggle Tabular Modeling**
 - 🧩 Strengths: **Feature engineering, cross-validation, ensembling, probability calibration, train/test shift handling**
-- 🛠️ Stack: **Python · Pandas · NumPy · scikit-learn · LightGBM · CatBoost**
+- 🛠️ Stack: **Python · Pandas · NumPy · scikit-learn · LightGBM · XGBoost · CatBoost**
 
 ---
 
