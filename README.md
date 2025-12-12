@@ -47,7 +47,7 @@
 
 ---
 
-## 🧰 Tech Stack (All Skills)
+## 🧰 Tech Stack & All Skills
 ### Core Languages
 - **Python** (Pandas/NumPy), **C++** (STL, filesystem), SQL (SQLite usage)
 
@@ -87,13 +87,5 @@
 - Email: **axelsensheyjzhen@163.com**
 
 ---
-
-## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&locale=en" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=YOUR_GITHUB_USERNAME&show_icons=true&locale=en&layout=compact" />
-</p>
 
 ---
