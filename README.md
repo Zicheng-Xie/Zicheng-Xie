@@ -28,7 +28,7 @@
 
 ## 👨‍💻 About Me
 
-Hi! I'm **Zicheng Xie**, a developer and researcher interested in the intersection of **Artificial Intelligence, Machine Learning, Software Engineering, and Data Systems**.
+Hi! I'm **Zicheng Xie**, a developer and researcher interested in the intersection of **Machine Learning, Software Engineering, and Data Systems**.
 
 My current work focuses on:
 
