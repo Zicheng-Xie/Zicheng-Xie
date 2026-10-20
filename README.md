@@ -1,148 +1,90 @@
 <div align="center">
 
-# 👋 Hi, I'm Zicheng Xie
+# Zicheng Xie
 
-### AI / Machine Learning · Software Engineering · LLM & Agent Systems
+**AI Systems · LLM Agents · Machine Learning · Software Engineering**
 
-<p>
-  <a href="https://github.com/Zicheng-Xie">
-    <img src="https://img.shields.io/badge/GitHub-Zicheng--Xie-181717?style=for-the-badge&logo=github" />
-  </a>
-  <a href="mailto:axelsensheyjzhen@163.com">
-    <img src="https://img.shields.io/badge/Email-Zicheng%20Xie-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+Building reliable AI software — from retrieval and agent workflows to evaluation, APIs, and real-world applications.
+
+[Open Source](#open-source) &nbsp;·&nbsp; [Selected Projects](#selected-projects) &nbsp;·&nbsp; [ML Competitions](#machine-learning-competitions) &nbsp;·&nbsp; [Tech Stack](#technical-stack)
 
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/LLM-Agent%20%7C%20RAG%20%7C%20LoRA-8A2BE2?style=flat-square" />
+  <a href="https://github.com/Zicheng-Xie"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Zicheng--Xie-24292F?style=flat-square&logo=github&logoColor=white"></a>
+  <a href="mailto:zichengxie2004@163.com"><img alt="Email" src="https://img.shields.io/badge/Email-Contact-315C80?style=flat-square&logo=gmail&logoColor=white"></a>
+  <a href="https://github.com/bytedance/deer-flow/pull/7150"><img alt="DeerFlow merged pull request" src="https://img.shields.io/badge/DeerFlow-PR%20%237150%20merged-237C61?style=flat-square&logo=github&logoColor=white"></a>
 </p>
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## About
 
-Hi! I'm **Zicheng Xie**, a developer and researcher interested in the intersection of **Machine Learning, Software Engineering, and Data Systems**.
+I'm a developer and researcher interested in the intersection of **AI systems, software engineering, and applied machine learning**. I enjoy building end-to-end prototypes, making model behavior measurable, and improving software through testing and iteration.
 
-My current work focuses on:
+- **Education:** Incoming M.S. in Machine Learning & Data Science at **Northwestern University**; undergraduate degrees in Finance from **Shanghai University** and **University of Technology Sydney**.
+- **Engineering interests:** LLM agents, retrieval-augmented generation, multimodal search, backend services, and AI infrastructure.
+- **Approach:** Build useful systems, understand failure cases, and leave the codebase more reliable than I found it.
 
-- 🤖 **LLM & Agent Systems** — RAG, multi-agent workflows, multimodal AI, LoRA fine-tuning and local LLM deployment
-- 🧠 **Machine Learning** — classification, forecasting, feature engineering, model ensembles and optimization
-- ⚙️ **Software Engineering** — Python, Java, C++, backend systems and distributed-systems fundamentals
-- 🔍 **Vector Search & RAG Infrastructure** — FAISS, Chroma, embeddings and semantic retrieval
-- 📊 **AI for Finance** — financial data analysis, automated research reports and quantitative modeling
+## Open Source
 
-I enjoy turning research ideas into practical systems and continuously exploring the boundary between **AI models and production-grade software engineering**.
+### [ByteDance / DeerFlow](https://github.com/bytedance/deer-flow) — Contributor
+
+**[Merged PR #7150](https://github.com/bytedance/deer-flow/pull/7150)** · [View commits](https://github.com/bytedance/deer-flow/pull/7150/commits) · `Python` / `Agents` / `LangGraph` / `Testing`
+
+DeerFlow is ByteDance's open-source long-horizon agent harness for complex, multi-step tasks. My contribution improves the reliability of document outlines consumed by agents.
+
+- **Fixed Markdown heading corruption.** Uploaded headings with separate bold spans, such as `# **Revenue** and **Profit**`, could be incorrectly normalized into `Revenue** and **Profit`.
+- **Made parsing boundary-aware.** Updated whole-title bold-marker cleanup to preserve independent bold spans, including mixed Chinese/English headings, across direct Markdown uploads and registered conversion companions.
+- **Added regression coverage.** Introduced **19 outline test scenarios** covering nine heading patterns across upload sources, plus a regression for the actual `list_uploaded_files` tool output.
+- **Verified the change.** Targeted test suites: **353 passed, 7 skipped**; Ruff lint and formatting checks passed. **4 files changed · +52 / −3 lines.**
+
+> **Merged into `main` on October 20, 2026.** [Review the pull request →](https://github.com/bytedance/deer-flow/pull/7150)
+
+## Selected Projects
+
+| Project | Engineering focus |
+| :--- | :--- |
+| **[Occupational Fitness Platform](https://github.com/Zicheng-Xie/Occupational-Fitness-Platform)** | Traceable, local-LLM-assisted assessment with source-grounded hybrid RAG, deterministic rules, and FastAPI interfaces. |
+| **[Agent-powered Financial Multimodal Report Generator](https://github.com/Zicheng-Xie/Agent-powered-Financial-Multimodal-Report-Generator)** | Automated financial research with data collection, iterative LLM-assisted analysis, charts, and Markdown/Word report generation. |
+| **[E-commerce Multimodal Intelligent Content & Retrieval](https://github.com/Zicheng-Xie/E-commerce-Multimodal-Intelligent-Content-and-Retrieval-System)** | Multimodal product search and content-generation project spanning retrieval, fashion understanding, and system design. |
+
+## Machine Learning Competitions
+
+| Competition / Repository | Result | Methods |
+| :--- | :--- | :--- |
+| [Kaggle · Jane Street Real-Time Market Prediction](https://github.com/Zicheng-Xie/Zicheng_Xie-2025-Kaggle-Jane-Street-Real-Time-Market-Data-Forecasting-Competition-) | **Silver medal · 67 / 3,757** | Time-series features, GBDT, neural networks, ensembles |
+| [Kaggle · Jigsaw Agile Community Rules](https://github.com/Zicheng-Xie/2025Kaggle-Jigsaw_Agile-Community-Rules-Classification) | **Bronze medal · 174 / 2,437** | LLM fine-tuning, contrastive embeddings, rank fusion |
+| [Kaggle · Real Estate Demand Prediction](https://github.com/Zicheng-Xie/2025Kaggle-Real-Estate-Demand-Prediction) | **95 / 777** | Panel time series, CatBoost, feature engineering |
+
+Also: **[ICBC Cup Financial Technology Innovation Competition](https://github.com/Zicheng-Xie/2023-ICBC_Cup-National-College-Financial-Technology-Creative-Design-Contest)** — Shanghai first prize.
+
+## Technical Stack
+
+| | Tools & technologies |
+| :--- | :--- |
+| **Languages** | `Python` · `C++` · `Java` · `SQL` |
+| **AI / ML** | `PyTorch` · `Transformers` · `scikit-learn` · `LightGBM` · `XGBoost` · `CatBoost` |
+| **Agents & retrieval** | `LangChain / LangGraph` · `RAG` · `FAISS` · `Chroma` · `BM25` · `Ollama` · `vLLM` |
+| **Engineering & data** | `FastAPI` · `REST APIs` · `Pytest` · `Ruff` · `Git` · `Docker` · `Pandas` · `NumPy` |
+
+<details>
+<summary><strong>GitHub activity</strong></summary>
+
+<p align="center">
+  <img alt="GitHub activity summary" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Zicheng-Xie&theme=github_dark" />
+</p>
+
+</details>
 
 ---
-
-## 📊 GitHub Stats
 
 <div align="center">
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Zicheng-Xie&theme=buefy)
+**Interested in collaborating on AI systems, agents, and applied ML?**
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Zicheng-Xie&theme=buefy)
-![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Zicheng-Xie&theme=buefy&utcOffset=8)
+[Email](mailto:zichengxie2004@163.com) &nbsp;·&nbsp; [GitHub](https://github.com/Zicheng-Xie) &nbsp;·&nbsp; [DeerFlow PR #7150](https://github.com/bytedance/deer-flow/pull/7150)
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Zicheng-Xie&theme=buefy)
-![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Zicheng-Xie&theme=buefy)
+<sub>Build thoughtfully. Test thoroughly. Keep learning.</sub>
 
 </div>
-
----
-
-## 🌟 Selected Projects
-
-| Repository | Description |
-|---|---|
-| [Agent-powered Financial Multimodal Report Generator](https://github.com/Zicheng-Xie/Agent-powered-Financial-Multimodal-Report-Generator) | 🤖 LLM-powered financial research system integrating multi-source data collection, intelligent analysis, visualization and automated report generation |
-| [2025 Kaggle Jigsaw Agile Community Rules Classification](https://github.com/Zicheng-Xie/2025Kaggle-Jigsaw_Agile-Community-Rules-Classification) | 🥉 Kaggle Bronze Medal — **174 / 2,437 teams**. LLM fine-tuning, embeddings, contrastive learning and ensemble classification |
-| Real Estate Demand Prediction | 🏠 Kaggle **95 / 777**. Time-series feature engineering, CatBoost modeling, panel data processing and demand forecasting |
-| ICBC Cup Financial Technology Competition | 🏆 Shanghai First Prize. C++ data structures, blockchain-style integrity verification and financial technology application |
-| Quantitative Factor Research | 📈 Factor IC/IR analysis, rolling weighting, portfolio construction, backtesting and transaction-cost modeling |
-
----
-
-## 🧠 AI / LLM Stack
-
-<p align="left">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" />
-  <img src="https://img.shields.io/badge/FAISS-Vector%20Search-0467DF?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Chroma-Vector%20DB-FF6446?style=for-the-badge" />
-</p>
-
-- Large Language Models
-- RAG
-- Agent / Multi-Agent Systems
-- LoRA / PEFT
-- Embedding Models
-- Vector Databases
-- vLLM
-- Local LLM Deployment
-- Multimodal AI
-
----
-
-## 🛠️ Engineering & Data Stack
-
-### Languages
-
-`Python` · `Java` · `C++` · `SQL`
-
-### Machine Learning
-
-`PyTorch` · `scikit-learn` · `LightGBM` · `XGBoost` · `CatBoost`
-
-### Data & Retrieval
-
-`Pandas` · `NumPy` · `FAISS` · `Chroma` · `SQLite`
-
-### Engineering
-
-`Git` · `Docker` · `VS Code` · `REST API` · `Linux` · `PowerShell`
-
-### Currently Learning
-
-`Java Backend` · `Distributed Systems` · `Spring Boot` · `Databases` · `Cloud Infrastructure`
-
----
-
-## 🏆 Selected Highlights
-
-- 🥉 **Kaggle Jigsaw Agile Community Rules Classification** — Bronze Medal, **174 / 2,437**
-- 🏠 **Kaggle Real Estate Demand Prediction** — **95 / 777**
-- 🏆 **ICBC Cup Financial Technology Innovation Competition** — Shanghai First Prize
-- 📄 Research interests in **LLM Agents, NLP, Machine Learning and AI Systems**
-- 🔬 Experience in academic research and AI/ML system development
-
----
-
-## 🔬 Research Interests
-
-```text
-Large Language Models
-├── Agent Systems
-├── Retrieval-Augmented Generation
-├── Multi-Agent Collaboration
-└── Multimodal AI
-
-Machine Learning
-├── NLP
-├── Time-Series Modeling
-├── Ensemble Learning
-└── Representation Learning
-
-Software Systems
-├── Backend Engineering
-├── Distributed Systems
-├── Databases
-└── AI Infrastructure
