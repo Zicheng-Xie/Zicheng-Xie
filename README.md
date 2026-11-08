@@ -63,26 +63,13 @@ Also: **[ICBC Cup Financial Technology Innovation Competition](https://github.co
 
 ## 🛠️ Skills
 
-<p align="center"><strong>Languages</strong></p>
-<p align="center">
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=py,cpp,java&amp;theme=dark" alt="Python, C++, Java" /></a>
-</p>
-<p align="center"><code>SQL</code></p>
-
-<p align="center"><strong>AI &amp; Machine Learning</strong></p>
-<p align="center">
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=pytorch,sklearn&amp;theme=dark" alt="PyTorch, scikit-learn" /></a>
-</p>
-<p align="center"><code>Transformers</code> &nbsp;·&nbsp; <code>LightGBM</code> &nbsp;·&nbsp; <code>XGBoost</code> &nbsp;·&nbsp; <code>CatBoost</code></p>
-
-<p align="center"><strong>Agents &amp; Retrieval</strong></p>
-<p align="center"><code>LangChain</code> &nbsp;·&nbsp; <code>LangGraph</code> &nbsp;·&nbsp; <code>RAG</code> &nbsp;·&nbsp; <code>FAISS</code> &nbsp;·&nbsp; <code>Chroma</code> &nbsp;·&nbsp; <code>BM25</code> &nbsp;·&nbsp; <code>Ollama</code> &nbsp;·&nbsp; <code>vLLM</code></p>
-
-<p align="center"><strong>Engineering &amp; Data</strong></p>
-<p align="center">
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=fastapi,git,docker&amp;theme=dark" alt="FastAPI, Git, Docker" /></a>
-</p>
-<p align="center"><code>REST APIs</code> &nbsp;·&nbsp; <code>Pytest</code> &nbsp;·&nbsp; <code>Ruff</code> &nbsp;·&nbsp; <code>Pandas</code> &nbsp;·&nbsp; <code>NumPy</code></p>
+| Property | Data |
+| :--- | :--- |
+| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white) ![Java](https://img.shields.io/badge/Java-A43E19?style=flat&logo=openjdk&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-45627E?style=flat) |
+| **AI / Machine Learning** | ![PyTorch](https://img.shields.io/badge/PyTorch-B23C29?style=flat&logo=pytorch&logoColor=white) ![Transformers](https://img.shields.io/badge/Transformers-805B12?style=flat&logo=huggingface&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-2C687B?style=flat&logo=scikitlearn&logoColor=white) ![LightGBM](https://img.shields.io/badge/LightGBM-297348?style=flat) ![XGBoost](https://img.shields.io/badge/XGBoost-235789?style=flat) ![CatBoost](https://img.shields.io/badge/CatBoost-805B12?style=flat) |
+| **Agents / Retrieval** | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-405D82?style=flat&logo=langgraph&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-6845A3?style=flat) ![FAISS](https://img.shields.io/badge/FAISS-265C9B?style=flat) ![Chroma](https://img.shields.io/badge/Chroma-85458C?style=flat) ![BM25](https://img.shields.io/badge/BM25-495E77?style=flat) ![Ollama](https://img.shields.io/badge/Ollama-24292F?style=flat&logo=ollama&logoColor=white) ![vLLM](https://img.shields.io/badge/vLLM-5848A8?style=flat) |
+| **Backend / Engineering** | ![FastAPI](https://img.shields.io/badge/FastAPI-00796D?style=flat&logo=fastapi&logoColor=white) ![REST APIs](https://img.shields.io/badge/REST%20APIs-40647F?style=flat) ![Pytest](https://img.shields.io/badge/Pytest-226B91?style=flat&logo=pytest&logoColor=white) ![Ruff](https://img.shields.io/badge/Ruff-75541D?style=flat&logo=ruff&logoColor=white) ![Git](https://img.shields.io/badge/Git-A73928?style=flat&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-1368A2?style=flat&logo=docker&logoColor=white) |
+| **Data Processing** | ![Pandas](https://img.shields.io/badge/Pandas-382669?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-356487?style=flat&logo=numpy&logoColor=white) |
 
 <details>
 <summary><strong>GitHub activity</strong></summary>
