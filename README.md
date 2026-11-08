@@ -6,7 +6,7 @@
 
 Building reliable AI software — from retrieval and agent workflows to evaluation, APIs, and real-world applications.
 
-[Open Source](#open-source) &nbsp;·&nbsp; [Selected Projects](#selected-projects) &nbsp;·&nbsp; [ML Competitions](#machine-learning-competitions) &nbsp;·&nbsp; [Tech Stack](#technical-stack)
+[Open Source](#open-source) &nbsp;·&nbsp; [Selected Projects](#selected-projects) &nbsp;·&nbsp; [ML Competitions](#machine-learning-competitions) &nbsp;·&nbsp; [Skills](#skills)
 
 <p>
   <a href="https://github.com/Zicheng-Xie"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Zicheng--Xie-24292F?style=flat-square&logo=github&logoColor=white"></a>
@@ -59,14 +59,30 @@ DeerFlow is ByteDance's open-source long-horizon agent harness for complex, mult
 
 Also: **[ICBC Cup Financial Technology Innovation Competition](https://github.com/Zicheng-Xie/2023-ICBC_Cup-National-College-Financial-Technology-Creative-Design-Contest)** — Shanghai first prize.
 
-## Technical Stack
+<a id="skills"></a>
 
-| | Tools & technologies |
-| :--- | :--- |
-| **Languages** | `Python` · `C++` · `Java` · `SQL` |
-| **AI / ML** | `PyTorch` · `Transformers` · `scikit-learn` · `LightGBM` · `XGBoost` · `CatBoost` |
-| **Agents & retrieval** | `LangChain / LangGraph` · `RAG` · `FAISS` · `Chroma` · `BM25` · `Ollama` · `vLLM` |
-| **Engineering & data** | `FastAPI` · `REST APIs` · `Pytest` · `Ruff` · `Git` · `Docker` · `Pandas` · `NumPy` |
+## 🛠️ Skills
+
+<p align="center"><strong>Languages</strong></p>
+<p align="center">
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=py,cpp,java&amp;theme=dark" alt="Python, C++, Java" /></a>
+</p>
+<p align="center"><code>SQL</code></p>
+
+<p align="center"><strong>AI &amp; Machine Learning</strong></p>
+<p align="center">
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=pytorch,sklearn&amp;theme=dark" alt="PyTorch, scikit-learn" /></a>
+</p>
+<p align="center"><code>Transformers</code> &nbsp;·&nbsp; <code>LightGBM</code> &nbsp;·&nbsp; <code>XGBoost</code> &nbsp;·&nbsp; <code>CatBoost</code></p>
+
+<p align="center"><strong>Agents &amp; Retrieval</strong></p>
+<p align="center"><code>LangChain</code> &nbsp;·&nbsp; <code>LangGraph</code> &nbsp;·&nbsp; <code>RAG</code> &nbsp;·&nbsp; <code>FAISS</code> &nbsp;·&nbsp; <code>Chroma</code> &nbsp;·&nbsp; <code>BM25</code> &nbsp;·&nbsp; <code>Ollama</code> &nbsp;·&nbsp; <code>vLLM</code></p>
+
+<p align="center"><strong>Engineering &amp; Data</strong></p>
+<p align="center">
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=fastapi,git,docker&amp;theme=dark" alt="FastAPI, Git, Docker" /></a>
+</p>
+<p align="center"><code>REST APIs</code> &nbsp;·&nbsp; <code>Pytest</code> &nbsp;·&nbsp; <code>Ruff</code> &nbsp;·&nbsp; <code>Pandas</code> &nbsp;·&nbsp; <code>NumPy</code></p>
 
 <details>
 <summary><strong>GitHub activity</strong></summary>
