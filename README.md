@@ -1,6 +1,6 @@
 <div align="center">
 
-# Zicheng Xie
+<h1><img src="./assets/profile-orbit.svg" width="100%" alt="Zicheng Xie" /></h1>
 
 **AI Systems · LLM Agents · Machine Learning · Software Engineering**
 
