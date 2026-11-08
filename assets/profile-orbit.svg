@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-labelledby="title desc">
 <title id="title">Zicheng Xie</title>
-<desc id="desc">Three planets orbit across a deep blue galaxy, with a moon circling the cyan planet.</desc>
+<desc id="desc">Three planets orbit across a deep blue galaxy, with a moon circling the cyan planet. Meteors carry the names Shanghai University, The University of Technology Sydney, and Northwestern University (US).</desc>
 <defs>
 <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#050817"/><stop offset="1" stop-color="#101839"/></linearGradient>
 <radialGradient id="nebula"><stop stop-color="#523fbc" stop-opacity=".65"/><stop offset="1" stop-color="#523fbc" stop-opacity="0"/></radialGradient>
@@ -10,6 +10,9 @@
 <radialGradient id="gold" cx=".3" cy=".27" r=".8"><stop stop-color="#fff7cd"/><stop offset=".46" stop-color="#f3ba72"/><stop offset="1" stop-color="#ad4869"/></radialGradient>
 <linearGradient id="name" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#a9dcff"/></linearGradient>
 <clipPath id="frame"><rect width="1000" height="320" rx="22"/></clipPath>
+<linearGradient id="meteor0" gradientUnits="userSpaceOnUse" x1="-385" y1="0" x2="0" y2="0"><stop stop-color="#87ecff" stop-opacity="0"/><stop offset=".63" stop-color="#87ecff" stop-opacity=".36"/><stop offset="1" stop-color="#87ecff"/></linearGradient>
+<linearGradient id="meteor1" gradientUnits="userSpaceOnUse" x1="-385" y1="0" x2="0" y2="0"><stop stop-color="#dfb4ff" stop-opacity="0"/><stop offset=".63" stop-color="#dfb4ff" stop-opacity=".36"/><stop offset="1" stop-color="#dfb4ff"/></linearGradient>
+<linearGradient id="meteor2" gradientUnits="userSpaceOnUse" x1="-385" y1="0" x2="0" y2="0"><stop stop-color="#ffe4a1" stop-opacity="0"/><stop offset=".63" stop-color="#ffe4a1" stop-opacity=".36"/><stop offset="1" stop-color="#ffe4a1"/></linearGradient>
 </defs>
 <g clip-path="url(#frame)">
 <rect width="1000" height="320" fill="url(#bg)"/>
@@ -208,6 +211,72 @@
 <animateMotion dur="14s" begin="-3s" repeatCount="indefinite" calcMode="paced" path="M 253 0 A 253 61 0 1 1 -253 0 A 253 61 0 1 1 253 0"/>
 <circle r="13" fill="#ffb987" opacity=".19"/><circle r="7" fill="url(#gold)"/>
 </g></g>
+<g transform="translate(30 39)">
+ <g opacity="0" transform="rotate(10)">
+ <animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;225 0;225 0" keyTimes="0;.16;1" dur="9s" begin="-1s" repeatCount="indefinite"/>
+ <animate attributeName="opacity" values="0;.72;0;0" keyTimes="0;.04;.16;1" dur="9s" begin="-1s" repeatCount="indefinite"/>
+ <path d="M-74 0H0" stroke="url(#meteor0)" stroke-width="1.5"/><circle r="1.8" fill="#e8faff"/>
+ </g></g>
+<g transform="translate(680 42)">
+ <g opacity="0" transform="rotate(10)">
+ <animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;225 0;225 0" keyTimes="0;.16;1" dur="10.7s" begin="-1.9100000000000001s" repeatCount="indefinite"/>
+ <animate attributeName="opacity" values="0;.72;0;0" keyTimes="0;.04;.16;1" dur="10.7s" begin="-1.9100000000000001s" repeatCount="indefinite"/>
+ <path d="M-74 0H0" stroke="url(#meteor0)" stroke-width="1.5"/><circle r="1.8" fill="#e8faff"/>
+ </g></g>
+<g transform="translate(125 237)">
+ <g opacity="0" transform="rotate(10)">
+ <animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;225 0;225 0" keyTimes="0;.16;1" dur="12.4s" begin="-2.8200000000000003s" repeatCount="indefinite"/>
+ <animate attributeName="opacity" values="0;.72;0;0" keyTimes="0;.04;.16;1" dur="12.4s" begin="-2.8200000000000003s" repeatCount="indefinite"/>
+ <path d="M-74 0H0" stroke="url(#meteor0)" stroke-width="1.5"/><circle r="1.8" fill="#e8faff"/>
+ </g></g>
+<g transform="translate(775 248)">
+ <g opacity="0" transform="rotate(10)">
+ <animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;225 0;225 0" keyTimes="0;.16;1" dur="14.1s" begin="-3.73s" repeatCount="indefinite"/>
+ <animate attributeName="opacity" values="0;.72;0;0" keyTimes="0;.04;.16;1" dur="14.1s" begin="-3.73s" repeatCount="indefinite"/>
+ <path d="M-74 0H0" stroke="url(#meteor0)" stroke-width="1.5"/><circle r="1.8" fill="#e8faff"/>
+ </g></g>
+<g transform="translate(232 47)">
+ <g opacity="0" transform="rotate(10)">
+ <animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;225 0;225 0" keyTimes="0;.16;1" dur="15.8s" begin="-4.640000000000001s" repeatCount="indefinite"/>
+ <animate attributeName="opacity" values="0;.72;0;0" keyTimes="0;.04;.16;1" dur="15.8s" begin="-4.640000000000001s" repeatCount="indefinite"/>
+ <path d="M-74 0H0" stroke="url(#meteor0)" stroke-width="1.5"/><circle r="1.8" fill="#e8faff"/>
+ </g></g>
+<g transform="translate(620 276)">
+ <g opacity="0" transform="rotate(10)">
+ <animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;225 0;225 0" keyTimes="0;.16;1" dur="17.5s" begin="-5.55s" repeatCount="indefinite"/>
+ <animate attributeName="opacity" values="0;.72;0;0" keyTimes="0;.04;.16;1" dur="17.5s" begin="-5.55s" repeatCount="indefinite"/>
+ <path d="M-74 0H0" stroke="url(#meteor0)" stroke-width="1.5"/><circle r="1.8" fill="#e8faff"/>
+ </g></g>
+<g transform="translate(445 31)">
+ <g opacity="0" transform="rotate(10)">
+ <animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;225 0;225 0" keyTimes="0;.16;1" dur="19.2s" begin="-6.46s" repeatCount="indefinite"/>
+ <animate attributeName="opacity" values="0;.72;0;0" keyTimes="0;.04;.16;1" dur="19.2s" begin="-6.46s" repeatCount="indefinite"/>
+ <path d="M-74 0H0" stroke="url(#meteor0)" stroke-width="1.5"/><circle r="1.8" fill="#e8faff"/>
+ </g></g>
+<g opacity="0">
+  <animateTransform attributeName="transform" type="translate" dur="21s" begin="-1s" repeatCount="indefinite" keyTimes="0;.08;.35;.48;1" values="-35 53;255 65;770 86;1570 96;1570 96"/>
+  <animate attributeName="opacity" dur="21s" begin="-1s" repeatCount="indefinite" keyTimes="0;.06;.10;.33;.44;1" values="0;0;1;1;0;0"/>
+  <path d="M-365 0H-14" stroke="url(#meteor0)" stroke-width="8" stroke-linecap="round" opacity=".24"/>
+  <path d="M-385 0H-8" stroke="url(#meteor0)" stroke-width="2" stroke-linecap="round"/>
+  <circle r="12" fill="#87ecff" opacity=".15"/><circle r="5" fill="#87ecff"/><circle r="2.1" fill="#fff"/>
+  <text x="-19" y="-9" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="21" font-weight="650" fill="#87ecff" stroke="#0a1027" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Shanghai University</text>
+</g>
+<g opacity="0">
+  <animateTransform attributeName="transform" type="translate" dur="21s" begin="-8s" repeatCount="indefinite" keyTimes="0;.08;.35;.48;1" values="-35 272;255 284;770 287;1570 297;1570 297"/>
+  <animate attributeName="opacity" dur="21s" begin="-8s" repeatCount="indefinite" keyTimes="0;.06;.10;.33;.44;1" values="0;0;1;1;0;0"/>
+  <path d="M-365 0H-14" stroke="url(#meteor1)" stroke-width="8" stroke-linecap="round" opacity=".24"/>
+  <path d="M-385 0H-8" stroke="url(#meteor1)" stroke-width="2" stroke-linecap="round"/>
+  <circle r="12" fill="#dfb4ff" opacity=".15"/><circle r="5" fill="#dfb4ff"/><circle r="2.1" fill="#fff"/>
+  <text x="-19" y="-9" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="21" font-weight="650" fill="#dfb4ff" stroke="#0a1027" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">The University of Technology Sydney</text>
+</g>
+<g opacity="0">
+  <animateTransform attributeName="transform" type="translate" dur="21s" begin="-15s" repeatCount="indefinite" keyTimes="0;.08;.35;.48;1" values="-35 45;255 57;770 81;1570 91;1570 91"/>
+  <animate attributeName="opacity" dur="21s" begin="-15s" repeatCount="indefinite" keyTimes="0;.06;.10;.33;.44;1" values="0;0;1;1;0;0"/>
+  <path d="M-365 0H-14" stroke="url(#meteor2)" stroke-width="8" stroke-linecap="round" opacity=".24"/>
+  <path d="M-385 0H-8" stroke="url(#meteor2)" stroke-width="2" stroke-linecap="round"/>
+  <circle r="12" fill="#ffe4a1" opacity=".15"/><circle r="5" fill="#ffe4a1"/><circle r="2.1" fill="#fff"/>
+  <text x="-19" y="-9" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="21" font-weight="650" fill="#ffe4a1" stroke="#0a1027" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke">Northwestern University (US)</text>
+</g>
 <text x="500" y="181" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="72" font-weight="750" letter-spacing="1" fill="url(#name)" stroke="#091026" stroke-width="4" paint-order="stroke">Zicheng Xie</text>
 <path d="M470 207h60" stroke="#7dd9ff" stroke-width="2" stroke-linecap="round" opacity=".75"/>
 </g>
