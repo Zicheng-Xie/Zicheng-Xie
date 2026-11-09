@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="172" viewBox="0 0 760 172" role="img" aria-labelledby="title">
+  <title id="title">Zicheng Xie</title>
+  <defs>
+    <linearGradient id="ink" x2="1" y2="1">
+      <stop stop-color="#6d3db8"/>
+      <stop offset=".53" stop-color="#b53980"/>
+      <stop offset="1" stop-color="#c34b55"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m88 70-17 16 17 16m584-32 17 16-17 16" opacity=".72"/>
+    <path d="M293 138h174" opacity=".65"/>
+  </g>
+  <text x="380" y="108" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="77" font-weight="800" letter-spacing="-3" fill="url(#ink)">Zicheng Xie</text>
+</svg>
