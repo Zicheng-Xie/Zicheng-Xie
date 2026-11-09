@@ -1,18 +1,20 @@
 <div align="center">
 
-<h1><img src="./assets/profile-orbit.svg" width="100%" alt="Zicheng Xie" /></h1>
-
-**AI Systems · LLM Agents · Machine Learning · Software Engineering**
-
-Building reliable AI software — from retrieval and agent workflows to evaluation, APIs, and real-world applications.
-
-[Open Source](#open-source) &nbsp;·&nbsp; [Selected Projects](#selected-projects) &nbsp;·&nbsp; [ML Competitions](#machine-learning-competitions) &nbsp;·&nbsp; [Skills](#skills)
+<h1><img src="./assets/profile-name.svg" width="660" alt="Zicheng Xie" /></h1>
 
 <p>
-  <a href="https://github.com/Zicheng-Xie"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Zicheng--Xie-24292F?style=flat-square&logo=github&logoColor=white"></a>
-  <a href="mailto:zichengxie2004@163.com"><img alt="Email" src="https://img.shields.io/badge/Email-Contact-315C80?style=flat-square&logo=gmail&logoColor=white"></a>
-  <a href="https://github.com/bytedance/deer-flow/pull/7150"><img alt="DeerFlow merged pull request" src="https://img.shields.io/badge/DeerFlow-PR%20%237150%20merged-237C61?style=flat-square&logo=github&logoColor=white"></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&amp;size=22&amp;pause=1150&amp;color=B53980&amp;center=true&amp;vCenter=true&amp;width=580&amp;height=45&amp;lines=Building%20AI%20systems;LLM%20agents%20and%20retrieval;Applied%20machine%20learning;Open-source%20engineering" alt="AI systems, LLM agents and retrieval, applied machine learning, and open-source engineering" /></a>
 </p>
+
+<p>
+  <a href="https://github.com/Zicheng-Xie"><img src="https://img.shields.io/badge/GitHub-24292F?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub" /></a>
+  &nbsp;
+  <a href="mailto:zichengxie2004@163.com"><img src="https://img.shields.io/badge/Email-A63860?style=flat-square&amp;logo=gmail&amp;logoColor=white" alt="Email" /></a>
+  &nbsp;
+  <a href="https://github.com/bytedance/deer-flow/pull/7150"><img src="https://img.shields.io/badge/DeerFlow-PR%20%237150-623BA0?style=flat-square&amp;logo=github&amp;logoColor=white" alt="DeerFlow merged pull request #7150" /></a>
+</p>
+
+[Open Source](#open-source) &nbsp;·&nbsp; [Selected Projects](#selected-projects) &nbsp;·&nbsp; [ML Competitions](#machine-learning-competitions) &nbsp;·&nbsp; [Skills](#skills)
 
 </div>
 
