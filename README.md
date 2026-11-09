@@ -14,44 +14,66 @@
   <a href="https://github.com/bytedance/deer-flow/pull/7150"><img src="https://img.shields.io/badge/DeerFlow-PR%20%237150-623BA0?style=flat-square&amp;logo=github&amp;logoColor=white" alt="DeerFlow merged pull request #7150" /></a>
 </p>
 
-[Open Source](#open-source) &nbsp;·&nbsp; [Selected Projects](#selected-projects) &nbsp;·&nbsp; [ML Competitions](#machine-learning-competitions) &nbsp;·&nbsp; [Skills](#skills)
+[Selected Projects](#selected-projects) &nbsp;·&nbsp; [Open Source](#open-source) &nbsp;·&nbsp; [ML Competitions](#machine-learning-competitions) &nbsp;·&nbsp; [Skills](#skills) &nbsp;·&nbsp; [GitHub Activity](#github-activity)
 
 </div>
 
 ---
 
-## About
+I build AI software across retrieval, agent workflows, evaluation, and APIs. Incoming M.S. in Machine Learning &amp; Data Science at **Northwestern University**, with undergraduate degrees in Finance from **Shanghai University** and **University of Technology Sydney**.
 
-I'm a developer and researcher interested in the intersection of **AI systems, software engineering, and applied machine learning**. I enjoy building end-to-end prototypes, making model behavior measurable, and improving software through testing and iteration.
+<a id="selected-projects"></a>
 
-- **Education:** Incoming M.S. in Machine Learning & Data Science at **Northwestern University**; undergraduate degrees in Finance from **Shanghai University** and **University of Technology Sydney**.
-- **Engineering interests:** LLM agents, retrieval-augmented generation, multimodal search, backend services, and AI infrastructure.
-- **Approach:** Build useful systems, understand failure cases, and leave the codebase more reliable than I found it.
+<details open>
+<summary><h2>📘 Selected Projects</h2></summary>
 
-## Open Source
+<table>
+<tr>
+<td valign="top" width="33%"><strong><a href="https://github.com/Zicheng-Xie/Occupational-Fitness-Platform">Occupational Fitness Platform</a></strong><br/><br/>Traceable assessments with a local LLM, source-grounded hybrid retrieval, and deterministic rules.<br/><br/><sub>RAG · FastAPI</sub></td>
+<td valign="top" width="33%"><strong><a href="https://github.com/Zicheng-Xie/Agent-powered-Financial-Multimodal-Report-Generator">Financial Report Generator</a></strong><br/><br/>Automates financial research, charts, and Markdown or Word report generation.<br/><br/><sub>LLM Agents · Reporting</sub></td>
+<td valign="top" width="33%"><strong><a href="https://github.com/Zicheng-Xie/E-commerce-Multimodal-Intelligent-Content-and-Retrieval-System">Multimodal E-commerce Retrieval</a></strong><br/><br/>Searches products across text and images and supports fashion content generation.<br/><br/><sub>Multimodal Search · Content Generation</sub></td>
+</tr>
+</table>
 
-### [ByteDance / DeerFlow](https://github.com/bytedance/deer-flow) — Contributor
+[Browse all repositories →](https://github.com/Zicheng-Xie?tab=repositories)
 
-**[Merged PR #7150](https://github.com/bytedance/deer-flow/pull/7150)** · [View commits](https://github.com/bytedance/deer-flow/pull/7150/commits) · `Python` / `Agents` / `LangGraph` / `Testing`
+</details>
 
-DeerFlow is ByteDance's open-source long-horizon agent harness for complex, multi-step tasks. My contribution improves the reliability of document outlines consumed by agents.
+<a id="open-source"></a>
+
+<details open>
+<summary><h2>📕 Open Source Contributions</h2></summary>
+
+<table>
+<tr><td>
+<strong><a href="https://github.com/bytedance/deer-flow">ByteDance · DeerFlow</a></strong> &nbsp;
+<a href="https://github.com/bytedance/deer-flow/pull/7150"><img src="https://img.shields.io/badge/PR%20%237150-Merged-6f42c1?style=flat-square" alt="Merged PR #7150"/></a>
+<br/><br/>
+Fixed Markdown heading normalization so uploaded outlines preserve separate bold spans, including mixed Chinese and English headings.
+<br/><br/>
+<strong>19 regression scenarios</strong> · <strong>353 tests passed, 7 skipped</strong> · Ruff lint and formatting passed.
+<br/><br/>
+<a href="https://github.com/bytedance/deer-flow/pull/7150">Read the pull request</a> &nbsp;·&nbsp; <a href="https://github.com/bytedance/deer-flow/pull/7150/files">View the diff</a>
+</td></tr>
+</table>
+
+<details>
+<summary>Implementation and verification</summary>
 
 - **Fixed Markdown heading corruption.** Uploaded headings with separate bold spans, such as `# **Revenue** and **Profit**`, could be incorrectly normalized into `Revenue** and **Profit`.
 - **Made parsing boundary-aware.** Updated whole-title bold-marker cleanup to preserve independent bold spans, including mixed Chinese/English headings, across direct Markdown uploads and registered conversion companions.
 - **Added regression coverage.** Introduced **19 outline test scenarios** covering nine heading patterns across upload sources, plus a regression for the actual `list_uploaded_files` tool output.
 - **Verified the change.** Targeted test suites: **353 passed, 7 skipped**; Ruff lint and formatting checks passed. **4 files changed · +52 / −3 lines.**
-
 > **Merged into `main` on October 20, 2026.** [Review the pull request →](https://github.com/bytedance/deer-flow/pull/7150)
 
-## Selected Projects
+</details>
 
-| Project | Engineering focus |
-| :--- | :--- |
-| **[Occupational Fitness Platform](https://github.com/Zicheng-Xie/Occupational-Fitness-Platform)** | Traceable, local-LLM-assisted assessment with source-grounded hybrid RAG, deterministic rules, and FastAPI interfaces. |
-| **[Agent-powered Financial Multimodal Report Generator](https://github.com/Zicheng-Xie/Agent-powered-Financial-Multimodal-Report-Generator)** | Automated financial research with data collection, iterative LLM-assisted analysis, charts, and Markdown/Word report generation. |
-| **[E-commerce Multimodal Intelligent Content & Retrieval](https://github.com/Zicheng-Xie/E-commerce-Multimodal-Intelligent-Content-and-Retrieval-System)** | Multimodal product search and content-generation project spanning retrieval, fashion understanding, and system design. |
+</details>
 
-## Machine Learning Competitions
+<a id="machine-learning-competitions"></a>
+
+<details open>
+<summary><h2>🏆 Machine Learning Competitions</h2></summary>
 
 | Competition / Repository | Result | Methods |
 | :--- | :--- | :--- |
@@ -61,9 +83,12 @@ DeerFlow is ByteDance's open-source long-horizon agent harness for complex, mult
 
 Also: **[ICBC Cup Financial Technology Innovation Competition](https://github.com/Zicheng-Xie/2023-ICBC_Cup-National-College-Financial-Technology-Creative-Design-Contest)** — Shanghai first prize.
 
+</details>
+
 <a id="skills"></a>
 
-## 🛠️ Skills
+<details open>
+<summary><h2>🛠️ Skills</h2></summary>
 
 | Property | Data |
 | :--- | :--- |
@@ -73,11 +98,26 @@ Also: **[ICBC Cup Financial Technology Innovation Competition](https://github.co
 | **Backend / Engineering** | ![FastAPI](https://img.shields.io/badge/FastAPI-00796D?style=flat&logo=fastapi&logoColor=white) ![REST APIs](https://img.shields.io/badge/REST%20APIs-40647F?style=flat) ![Pytest](https://img.shields.io/badge/Pytest-226B91?style=flat&logo=pytest&logoColor=white) ![Ruff](https://img.shields.io/badge/Ruff-75541D?style=flat&logo=ruff&logoColor=white) ![Git](https://img.shields.io/badge/Git-A73928?style=flat&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-1368A2?style=flat&logo=docker&logoColor=white) |
 | **Data Processing** | ![Pandas](https://img.shields.io/badge/Pandas-382669?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-356487?style=flat&logo=numpy&logoColor=white) |
 
+</details>
+
 <details>
-<summary><strong>GitHub activity</strong></summary>
+<summary><h2>👋 About &amp; Engineering Interests</h2></summary>
+
+I'm a developer and researcher interested in the intersection of **AI systems, software engineering, and applied machine learning**. I enjoy building end-to-end prototypes, making model behavior measurable, and improving software through testing and iteration.
+
+- **Education:** Incoming M.S. in Machine Learning & Data Science at **Northwestern University**; undergraduate degrees in Finance from **Shanghai University** and **University of Technology Sydney**.
+- **Engineering interests:** LLM agents, retrieval-augmented generation, multimodal search, backend services, and AI infrastructure.
+- **Approach:** Build useful systems, understand failure cases, and leave the codebase more reliable than I found it.
+
+</details>
+
+<a id="github-activity"></a>
+
+<details>
+<summary><h2>📊 GitHub Activity</h2></summary>
 
 <p align="center">
-  <img alt="GitHub activity summary" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Zicheng-Xie&theme=github_dark" />
+  <img alt="GitHub activity summary" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Zicheng-Xie&amp;theme=github_dark" />
 </p>
 
 </details>
