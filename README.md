@@ -55,16 +55,42 @@ Fixed Markdown heading normalization so uploaded outlines preserve separate bold
 <br/><br/>
 <a href="https://github.com/bytedance/deer-flow/pull/7150">Read the pull request</a> &nbsp;·&nbsp; <a href="https://github.com/bytedance/deer-flow/pull/7150/files">View the diff</a>
 </td></tr>
+<tr><td>
+<strong><a href="https://github.com/Tencent/WeKnora">Tencent · WeKnora</a></strong> &nbsp;
+<a href="https://github.com/Tencent/WeKnora/pull/4620"><img src="https://img.shields.io/badge/PR%20%234620-Merged-6f42c1?style=flat-square" alt="Merged PR #4620"/></a>
+<br/><br/>
+Preserved large integers and precise decimals in JSON file previews by formatting original tokens after validation.
+<br/><br/>
+<strong>22 tests passed, 0 failed</strong> · Type checking and production build passed · Upload and preview verified in the local Lite application.
+<br/><br/>
+<a href="https://github.com/Tencent/WeKnora/pull/4620">Read the pull request</a> &nbsp;·&nbsp; <a href="https://github.com/Tencent/WeKnora/pull/4620/files">View the diff</a>
+<br/><br/>
+<sub>TypeScript · JSON token formatting · Regression testing</sub>
+</td></tr>
 </table>
 
 <details>
-<summary>Implementation and verification</summary>
+<summary>DeerFlow · Implementation and verification</summary>
 
 - **Fixed Markdown heading corruption.** Uploaded headings with separate bold spans, such as `# **Revenue** and **Profit**`, could be incorrectly normalized into `Revenue** and **Profit`.
 - **Made parsing boundary-aware.** Updated whole-title bold-marker cleanup to preserve independent bold spans, including mixed Chinese/English headings, across direct Markdown uploads and registered conversion companions.
 - **Added regression coverage.** Introduced **19 outline test scenarios** covering nine heading patterns across upload sources, plus a regression for the actual `list_uploaded_files` tool output.
 - **Verified the change.** Targeted test suites: **353 passed, 7 skipped**; Ruff lint and formatting checks passed. **4 files changed · +52 / −3 lines.**
 > **Merged into `main` on October 20, 2026.** [Review the pull request →](https://github.com/bytedance/deer-flow/pull/7150)
+
+</details>
+
+
+<details>
+<summary>WeKnora · Implementation and verification</summary>
+
+- **Fixed numeric fidelity in JSON previews.** The previous parse-and-stringify flow could round `9007199254740993` to `9007199254740992`, or display `1e400` as `null`.
+- **Formatted original tokens after validation.** Preserved numeric literals and string contents while keeping nested objects and arrays readable. Invalid JSON retains its original text.
+- **Added regression coverage.** Added three test groups covering large integers, precise decimals, exponent overflow and underflow, negative zero, trailing zeros, escaped strings, nested containers, top-level values, and invalid JSON.
+- **Recorded validation in the PR.** Targeted utility suite **22 passed, 0 failed**. Type checking, production build, and diff checks passed. The PR also documents an upload and JSON preview check in the complete local Lite application, with screenshots.
+- **Change scope.** **2 files changed · +62 / −1 lines.** Merged into `main` on **October 23, 2026**.
+
+[Review PR #4620 →](https://github.com/Tencent/WeKnora/pull/4620)
 
 </details>
 
